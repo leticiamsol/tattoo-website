@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafa Tattoo Concept</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h2>Rafa Tattoo</h2>
+                </div>
+
+                <nav>
+                <ul id="menuitem">
+                    <li class="active"> <a href="#">INICIO</a></li>
+                    <li> <a href="#">SOBRE</a> </li>
+                    <li> <a href="#">PORTFOLIO</a> </li>
+                    <li> <a href="#">CLIENTES</a> </li>
+                    <li> <a href="#">SERVIÇOS</a> </li>
+                    <i class="fa fa-search"></i>
+                </ul>
+                </nav>
+                <span class="fa fa-bars" onclick="menutoggle()"></span>
+            </div>
+        
+
+        <div class="home flex">
+            <div class="left">
+                <h2>As Melhores Tattos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium possimus quae asperiores illum quibusdam doloremque magni exercitationem repellat quam, officia tempore?</p>
+                <button>Fazer Orçamento</button>
+        
+                <div class="dots flex">
+                    <label></label>
+                    <label></label>
+                    <label></label>
+                </div>
+            </div>
+    
+            <div class="right">
+                <div class="img">
+                    <img src="img/h.png" alt="">
+                </div>
+            </div>
+    </header>
+
+    <script>
+        var menuitem = document.getElementById('menuitem');
+        menuitem.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if(menuitem.style.maxHeight == '0px') {
+                menuitem.style.maxHeight = "200px";
+            }
+            else {
+                menuitem.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+
+    <section class="about">
+        <div class="container">
+            <h2>Rafa Tattoo Concept é:</h2>
+            <div class="grid">
+                <div class="item">
+                    <img src="img/tattoo.png" alt="">
+                    <h2>Alta Qualidade</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ea quod sed atque non? Sunt blanditiis quibusdam dolore voluptatem accusamus?</p>
+                </div>
+                <div class="item">
+                    <img src="img/tattoo2.png" alt="">
+                    <h2>Design Único</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ea quod sed atque non? Sunt blanditiis quibusdam dolore voluptatem accusamus?</p>
+                </div>
+                <div class="item">
+                    <img src="img/tattoo3.png" alt="">
+                    <h2>Experiência</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ea quod sed atque non? Sunt blanditiis quibusdam dolore voluptatem accusamus?</p>
+                </div>
+            </div>
+
+            <div class="content flex">
+                <div class="left">
+                    <div class="img">
+                        <img src="img/a.png" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ea quod sed atque non? Sunt blanditiis quibusdam dolore voluptatem accusamus?</p>
+                    <button>Fazer Orçamento</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>Our Tattoo Gallery</h2>
+
+        <div class="image">
+            <div class="img img_item1">
+                <img src="img/i1.jpg" alt="">
+            </div>
+            <div class="img img_item2">
+                <img src="img/i2.jpeg" alt="">
+            </div>
+            <div class="img img_item3">
+                <img src="img/i3.jpeg" alt="">
+            </div>
+            <div class="img img_item4">
+                <img src="img/i4.jpeg" alt="">
+            </div>
+            <div class="img img_item5">
+                <img src="img/i5.jpeg" alt="">
+            </div>
+            <div class="img img_item6">
+                <img src="img/i6.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="customer">
+        <div class="container">
+            <h2>Avaliações de clientes:</h2>
+            <div class="item grid">
+                <div class="box">
+                    <div class="para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium pariatur repellat repellendus veniam dolore eos perspiciatis. Voluptate, labore illum!</p>
+                    </div>
+                    <div class="image flex">
+                        <div class="img">
+                            <img src="img/c1.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Andre M.</h3>
+                            <p>Cliente</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium pariatur repellat repellendus veniam dolore eos perspiciatis. Voluptate, labore illum!</p>
+                    </div>
+                    <div class="image flex">
+                        <div class="img">
+                            <img src="img/c2.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Andre M.</h3>
+                            <p>Cliente</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="content flex">
+                <div class="left">
+                    <div class="top flex">
+                        <div class="input">
+                            <input type="text" placeholder="Enter your email">
+                        </div>
+                        <div class="arrow">
+                            <i class="fa fa-paper-plane"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-facebook"></i>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="item">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="item">
+                    <h2>Instagram</h2>
+
+                    <div class="box flex">
+                        <img src="img/i2.jpeg" alt="">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    
+                </div>
+                <div class="item">
+                    <h2>Fale conosco</h2>
+                    <i class="fa fa-map"></i>
+                    <label>Localização</label> <br>
+                    <i class="fa fa-whatsapp"></i>
+                    <label>Número 81987089319</label> <br>
+                </div>
+
+                <div class="item">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471.6924384398603!2d-34.89945230089965!3d-8.128901435001126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1fb622f32219%3A0x5684cc4aa81b7dbe!2sScalla%20Edif%C3%ADcio!5e1!3m2!1spt-PT!2spt!4v1668953995725!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <p class="legal">Copyright 2022 | Criado por @leticiaidman </p>
+</body>
+</html>
