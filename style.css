@@ -47,7 +47,7 @@ h2
 /*---------------------------- hearder --------------------------*/
 
 header {
-    height: 100vh;
+    min-height: 100vh;
     color: white;
     background: var(--primary-color);
 }
@@ -138,7 +138,7 @@ header .navbar span
         margin-bottom: 10px;
     }
 
-    header span {
+    header .navbar span {
         color: white;
         display: block;
         cursor: pointer;
@@ -205,11 +205,12 @@ img
 
 .home .right img
 {
-    width: 460px;
+    width: auto;
+    height: auto;
 }
 
 .dots {
-    margin-top: 10%;
+    margin-top: 20%;
     justify-content: center;
 }
 
@@ -291,6 +292,7 @@ img
 .about .content h2 {
     font-size: 40px;
     font-weight: 100;
+    margin-bottom: 20px;
 }
 
 .about .content p
