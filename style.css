@@ -50,6 +50,7 @@ header {
     min-height: 100vh;
     color: white;
     background: var(--primary-color);
+    padding-bottom: 30px;
 }
 
 header .navbar
@@ -426,7 +427,7 @@ img
 }
 
 .customer .text {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .customer .text p 
@@ -521,6 +522,7 @@ footer iframe {
     width: auto;
     height: auto;
     margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 .legal {
@@ -537,10 +539,9 @@ footer iframe {
         height: auto;
     }
 
-    .grid 
-{
-    grid-template-columns: repeat(1,1fr);
-}
+    .grid { 
+        grid-template-columns: repeat(1,1fr);
+    }
 
     .dots {
         margin-bottom: 20px;
@@ -572,8 +573,41 @@ footer iframe {
         flex-direction: column-reverse;
     }
 
+    .home h2 {
+        font-size: 35px;
+    }
+
+    .home p {
+        font-size: 16px;
+    }
+
+    .home button {
+        font-size: 14px;
+    }
+
     .content {
         flex-direction: column;
+    }
+
+    .h2-rafa {
+        margin-bottom: -60px;
+    }
+
+    .item {
+        margin-bottom: -100px;
+    }
+
+    .hitem {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    .pitem {
+        font-size: 14px;
+    }
+
+    .left .img img {
+        width: 300px;
     }
 
     footer .left {
@@ -592,7 +626,7 @@ footer iframe {
         width: 100%;
     }
 
-    footer .left arrow {
+    footer .left .arrow {
         width: 15%;
     }
 
