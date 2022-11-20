@@ -606,6 +606,14 @@ footer iframe {
         font-size: 14px;
     }
 
+    .customer {
+        padding-bottom: 80px;
+    }
+
+    .image{
+        margin-bottom: 20px;
+    }
+
     .left .img img {
         width: 300px;
     }
