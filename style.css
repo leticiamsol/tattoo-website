@@ -642,4 +642,15 @@ footer iframe {
     p {
         font-size: 10px;
     }
+
+    footer {
+        padding-left: 0;
+    }
+
+    footer iframe {
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
 }
