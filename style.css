@@ -442,6 +442,7 @@ footer{
     margin-top: 100px;
     background: var(--primary-color);
     color: white;
+    padding-left: 90px;
 }
 
 footer .left
@@ -499,7 +500,7 @@ footer .right i:hover
 
 footer .grid {
     margin-top: 50px;
-    grid-template-columns: repeat(4,1fr);
+    display: block;
 }
 
 footer h2 
@@ -519,9 +520,9 @@ footer .box img {
 }
 
 footer iframe {
-    width: auto;
-    height: auto;
-    margin-top: 70px;
+    width: 810px;
+    height: 420px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
