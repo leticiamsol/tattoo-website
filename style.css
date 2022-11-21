@@ -520,15 +520,17 @@ footer .box img {
 }
 
 footer iframe {
-    width: 810px;
+    width: 828px;
     height: 420px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .legal {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
+    font-size: 13px;
 }
 
 .legal i {
@@ -595,7 +597,7 @@ footer iframe {
     }
 
     .item {
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
     .hitem {
