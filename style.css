@@ -618,7 +618,7 @@ footer iframe {
     }
 
     .left .img img {
-        width: 280px;
+        width: 220%;
     }
 
     footer .left {
@@ -643,6 +643,7 @@ footer iframe {
 
     p {
         font-size: 10px;
+        color: white;
     }
 
     footer {
@@ -653,6 +654,6 @@ footer iframe {
         width: 300px;
         height: 200px;
         margin-top: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
     }
 }
