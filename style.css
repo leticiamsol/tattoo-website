@@ -597,7 +597,7 @@ footer iframe {
     }
 
     .item {
-        margin-bottom: 0px;
+        margin-bottom: -80px;
     }
 
     .hitem {
@@ -618,7 +618,7 @@ footer iframe {
     }
 
     .left .img img {
-        width: 300px;
+        width: 280px;
     }
 
     footer .left {
